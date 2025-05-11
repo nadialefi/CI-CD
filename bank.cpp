@@ -38,7 +38,7 @@ int main (){
 int pilih_menu(){
     int menu;
     cout << "Menu Aplikasi : " << endl;
-    cout << "1. Create account" << endl;
+    cout << "1. Register" << endl;
     cout << "2. Ambil Uang" << endl;
     cout << "3. Nabung" << endl;
     cout << "4. Lihat Daftar Rekening" << endl;
