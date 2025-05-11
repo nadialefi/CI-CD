@@ -1,10 +1,10 @@
 name: C++ CI Workflow
 
-on:
-  push:
-  pull_request:
+on
+  push
+  pull_request
 
-jobs:
+jobs
   build-run:
     runs-on: ubuntu-latest
 
@@ -16,7 +16,7 @@ jobs:
       run: sudo apt update && sudo apt install -y g++
 
     - name: Compile Code
-      run: g++ -o bank bank.cpo
+      run: g++ -o bank bank.cpp
 
     - name: Run Program
       run: echo "Run the program !!!" && ./bank < input.txt || true
