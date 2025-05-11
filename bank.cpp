@@ -50,7 +50,7 @@ int pilih_menu(){
 
 }
 
-void tambah_akun({
+void tambah_akun(){
     cout << "Masukkan Nama : ";
     cin >> nama_pemilik[jumlah_akun];
     cout << "Masukkan Profesi : ";
