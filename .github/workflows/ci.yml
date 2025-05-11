@@ -16,7 +16,8 @@ jobs:
       run: sudo apt update && sudo apt install -y g++
 
     - name: Compile Code
-      run: g++ -o bank bank.cpp
+      run: g++ -o bank bank.cpo
 
     - name: Run Program
       run: echo "Run the program !!!" && ./bank < input.txt || true
+      
